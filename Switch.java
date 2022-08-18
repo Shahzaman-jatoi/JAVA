@@ -47,13 +47,13 @@ public class Switch {
             case "Admin":
                 switch(id){
                     case 74395:
-                        System.out.println("Izhan");
+                        System.out.println("ABC ");
                         break;
                     case 74655:
-                        System.out.println("zubair");
+                        System.out.println("air");
                         break;
                     case 74815:
-                        System.out.println("salah");
+                        System.out.println("SEAT");
                         break;
                     default:
                         System.out.println("Enter Valid ID");
