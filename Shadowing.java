@@ -11,9 +11,9 @@ public class Shadowing {
 
         int value1= 201; //value1 initialized again and now it is changed
         System.out.println(value1);// Output: 201
-        fun(); //Static fun will now access value1 from the first value1 why? because fun is inside shadowing block and it access value1 from its own block not from main
+        fun(); // {Output: 101} Static fun will now access value1 from the first value1 why? because fun is inside shadowing block and it access value1 from its own block not from main
         Shadowing s = new Shadowing();
-        s.fun(); /*Object s of fun will now access value1 from the first value1 why?
+        s.fun(); /* {Output: 101} Object s of fun will now access value1 from the first value1 why?
                    because fun is inside shadowing block and it access value1 from its own block not from main
                   */
 
